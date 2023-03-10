@@ -1,0 +1,128 @@
+/* header styles */
+.flex-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ul-item {
+    display: flex;
+    width: 366px;
+    justify-content: space-between;
+}
+.login {
+    width: 78px;
+    height: 40px;
+    background-color: #F84646;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bg {
+    background-image: url('../images/bgheader.jpg');
+    height: 754px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 45px;
+    background-position: center;
+}
+.burger-bar {
+    display: none;
+    font-size: 32px;
+}
+
+
+/* section #1 */
+.container {
+    max-width: 1153px;
+    width: 80%;
+    background-color: #F84646;
+    margin: 0 auto;
+}
+.block {
+    width: 298px;
+    height: 212px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block-parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 508px;
+    align-content: space-between;
+}
+.text-block {
+    max-width: 994px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+/* section#3 */
+.container-block {
+    max-width: 1197px;
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+.left-block {
+    max-width: 608px;
+    width: 100%;
+    background-color: aquamarine;
+}
+.right-block {
+    max-width: 504px;
+    width: 100%;
+}
+.right-block img {
+    width: 100%;
+}
+
+
+/* section#4 */
+.container-wraper {
+    max-width: 1179px;
+    width: 90%;
+    margin: 0 auto;
+}
+.flex-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+.wraper-left {
+    width: 60%;
+    background-color: cadetblue;
+    height: 886px;
+}
+.wraper-left img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.wraper-right {
+    width: 30%;
+}
+.wraper-right img {
+    width: 100%;
+}
+.right-block-child {
+    height: 280px;
+    border: 2px solid black;
+}
+.right-block-child:nth-child(2) {
+    margin: 23px 0;
+}
+.wraper-child:nth-child(1) {
+    margin-bottom: 86px;
+}

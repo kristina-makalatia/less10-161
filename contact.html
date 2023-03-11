@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 11</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header-contact">
+      <nav>
+        <ul class="ul-contact">
+          <li>
+            <a class="a-contact" href="">Home</a>
+          </li>
+          <li>
+            <a class="a-contact" href="">News</a>
+          </li>
+          <li>
+            <a class="a-contact" href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="bg-image"></div>
+    </section>
+    <section>
+      <div>
+        <p class="hello">hello1</p>
+      </div>
+    </section>
+    <section>
+      <div class="container-form">
+        <form action="">
+          <div class="flex-form">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              class="input-form"
+              id="fname"
+              name="firstname"
+              placeholder="Enter Your Name..."
+              required
+            />
+          </div>
+
+          <div class="flex-form">
+            <label for="passw">Password</label>
+            <input
+              type="password"
+              class="input-form"
+              name="mypassw"
+              id="passw"
+              placeholder="Enter Your Password"
+              required
+            />
+          </div>
+
+          <div class="flex-form">
+            <label for="mycountry">Country</label>
+            <select class="select-form" name="country" id="mycountry">
+              <option value="none" selected disabled hidden>
+                Choose Country
+              </option>
+              <option value="Georgia">Georgia</option>
+              <option value="Germany">Germany</option>
+              <option value="usa">Usa</option>
+            </select>
+          </div>
+
+          <div class="flex-form">
+            <label for="mymessage">Your Message</label>
+            <textarea
+              class="textarea-form"
+              name="message"
+              id="mymessage"
+              placeholder="enter Your Messsage..."
+            ></textarea>
+          </div>
+
+          <div>
+            <div>
+              <input type="radio" name="userage" id="userage1" />
+              <label for="userage1">18-30</label>
+            </div>
+            <div>
+              <input type="radio" name="userage" id="userage2" />
+              <label for="userage2">30-50</label>
+            </div>
+          </div>
+
+          <div>
+            <input type="checkbox" name="travelhobby" id="travel" />
+            <label for="travel">Travel</label>
+            <input type="checkbox" name="dancehobby" id="dance" />
+            <label for="dance">Dance</label>
+            <input type="checkbox" name="musichobby" id="music" />
+            <label for="music">Music</label>
+          </div>
+          <button class="btn-submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
